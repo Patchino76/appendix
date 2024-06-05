@@ -29,7 +29,7 @@ const HeroDetails = ({hero, onUpdateName}: HeroDetailsProps) => {
 
         <div>
           <input className="bg-slate-300 rounded-l p-2" placeholder="Change name"  type="text" 
-          onChange={handleUpdateName}/>
+          onChange={handleUpdateName} />
         </div>
       </div>
     </div>

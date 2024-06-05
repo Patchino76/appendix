@@ -1,8 +1,8 @@
-import HeroDetails, { HeroDetailsProps } from "./components/HeroDetails";
 import HeroList from "./components/HeroList";
 import { Hero } from "./types/hero";
 import { HEROES } from "./data/mock-heroes";
 import { useState } from "react";
+import HeroDetails from "./components/HeroDetails";
 
 const App = () => {
   const [hero, setHero] = useState(HEROES[0]);
